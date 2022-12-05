@@ -26,8 +26,8 @@ public class Inheritance2 {
         if(moneySpent >= 1500 && moneySpent < 2000){customer2.setSevenPercent(true);}
         if(moneySpent >= 2000){customer2.setTenPercent(true);}
 
-        System.out.println("Here are the person's details: \n" + person1.toString());
-        System.out.println("Here are customer's details: \n" + customer1.toString());
-        System.out.println("Here are the preferred customer's details: \n" + customer2.toString());
+        System.out.println("Here are the person's details: \n" + person1);
+        System.out.println("Here are customer's details: \n" + customer1);
+        System.out.println("Here are the preferred customer's details: \n" + customer2);
     }
 }
