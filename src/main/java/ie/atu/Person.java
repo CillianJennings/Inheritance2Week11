@@ -39,5 +39,10 @@ public class Person {
         this.number = number;
     }
 
-
+    @Override
+    public String toString() {
+        return "Name: " + name + '\n' +
+                "Address: " + address + '\n' +
+                "Telephone: " + number + '\n';
+    }
 }
